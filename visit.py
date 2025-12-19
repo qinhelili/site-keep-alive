@@ -33,6 +33,8 @@ success_texts = [
     "Logan的旅行笔记",
     "Ray的阅览室",
     "Starry serenade",
+    "服务正常",
+    "Hello Snippets",
     "Welcome to nginx!"
 ]
 
