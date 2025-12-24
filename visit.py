@@ -28,10 +28,14 @@ fail_msgs = [
     "Error with the login: login size should be between 2 and 50 (currently: 1)"
 ]
 success_texts = [
-    "远岛日记",
-    "午夜随想",
-    "Logan的旅行笔记",
-    "Ray的阅览室",
+    "Elena's Blog",
+    "Carter's Blog",
+    "Camille's Blog",
+    "Adrien's Blog",
+    "陈安的博客",
+    "李岩的博客",
+    "Logan的博客",
+    "Ray的博客",
     "Starry serenade",
     "服务正常",
     "Hello Snippets",
