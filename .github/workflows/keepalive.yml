@@ -63,6 +63,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # 如果 GitHub Actions 在执行一个新的任务块时只恢复了 .venv 缓存文件, 却没有同时安装对应版本的 Python 核心程序, 该虚拟环境便无法使用.
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
       # 1. 恢复虚拟环境缓存
       - name: Restore Virtual Environment Cache
         uses: actions/cache@v4
