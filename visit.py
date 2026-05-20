@@ -133,6 +133,5 @@ async def main():
     await visit_site()
     send_tg_log()
 
-
 if __name__ == "__main__":
     asyncio.run(main())
